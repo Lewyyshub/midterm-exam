@@ -155,7 +155,7 @@ function CardInfo() {
                 />
                 {!isValid && <p style={{ color: "red" }}>{error}</p>}
               </div>
-              <div>
+              <div className="test">
                 <label className="cardnumbe">CARD NUMBER</label>
                 <input
                   className={cardError ? "input-error" : ""}

@@ -1,5 +1,5 @@
 .frontSide {
-  max-width: 447px;
+  width: 447px;
   height: 245px;
   flex-shrink: 0;
   border-radius: 10px;
@@ -10,7 +10,6 @@
   align-items: flex-start;
   padding: 20px;
   gap: 64px;
-  margin-right: 100px;
 }
 .image {
   max-width: auto;
@@ -27,6 +26,7 @@
 .name {
   display: flex;
   justify-content: space-between;
+  flex: 1rem;
 }
 .numbers > h1 {
   letter-spacing: 3.422px;
@@ -86,6 +86,8 @@
   flex-direction: column;
   gap: 37px;
   display: flex;
+  width: 450px;
+  position: relative;
 }
 .cardnums {
   color: var(--White, #fff);
@@ -254,4 +256,78 @@ input[type="number"]::-webkit-inner-spin-button {
   opacity: 0.5;
   background: #d53aff;
   filter: blur(40px);
+}
+@media screen and (max-width: 929px) {
+  .card-sides {
+    flex-direction: column;
+    position: absolute;
+    top: 10px;
+    flex-direction: column-reverse;
+  }
+  .frontSide {
+    position: absolute;
+    top: 170px;
+  }
+  .secondside {
+    position: absolute;
+    top: 500px;
+    left: 250px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .secondside {
+    position: absolute;
+    left: 200px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .secondside {
+    position: absolute;
+    left: 150px;
+  }
+}
+@media screen and (max-width: 628px) {
+  .secondside {
+    position: absolute;
+    left: 100px;
+  }
+}
+@media screen and (max-width: 523px) {
+  .card-sides {
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    flex-direction: column-reverse;
+  }
+  .frontSide {
+    position: absolute;
+    top: 170px;
+  }
+  .secondside {
+    position: absolute;
+    left: 50px;
+    top: 600px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .frontSide {
+    width: 100%;
+    max-width: 390px;
+    text-wrap: nowrap;
+    left: 30px;
+  }
+  .backSide {
+    max-width: 370px;
+    text-wrap: nowrap;
+    left: 1px;
+  }
+  .numbers {
+    width: 100%;
+  }
+  .cardnums {
+    letter-spacing: 0px;
+  }
+  .secondside {
+    left: 1px;
+  }
 }
