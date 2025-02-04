@@ -64,12 +64,14 @@ function CardInfo() {
     const value = e.target.value;
     if (value.length <= 2) {
       setCardmonth(value);
+      //ამას ვალიდაცია ვერ დავადე//
     }
   };
   const handleCardYear = (e) => {
     const value = e.target.value;
     if (value.length <= 2) {
       setCardyear(value);
+      //ამას ვალიდაცია ვერ დავადე//
     }
   };
   const handleCvc = (e) => {
@@ -79,7 +81,7 @@ function CardInfo() {
   };
   const MainPage = (e) => {
     // e.preventDefault("");
-    //აქ ქონთინიუს კლიკზე მინდოდა გასუფთავებულიყო //
+    //აქ ქონთინიუს კლიკზე მინდოდა გასუფთავებულიყო მარა არ შვრება //
     if (!isVisible) {
       setIsVisible(true);
       setAppriciate(false);
