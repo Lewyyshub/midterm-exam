@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url(./fonts/SpaceGrotesk.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Space Grotesk";
+}
+#root {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-evenly;
+  background: linear-gradient(to right, #21092f 35%, white 35%);
+  width: 100%;
+}

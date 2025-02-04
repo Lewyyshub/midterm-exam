@@ -1,0 +1,139 @@
+form > div {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.two {
+  display: flex;
+  flex-direction: row;
+}
+.cvc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rame {
+  display: flex;
+  gap: 10px;
+}
+.dates {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form {
+  display: flex;
+  gap: 26px;
+  flex-direction: column;
+}
+.holder {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
+
+  /* Body (M) */
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.nameinput {
+  width: 381px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: var(--White, #fff);
+}
+.cardnumbe {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
+
+  /* Body (M) */
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.numberinput {
+  width: 381px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: var(--White, #fff);
+}
+.expiration {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
+
+  /* Body (M) */
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.rame > input {
+  width: 80px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: var(--White, #fff);
+}
+.cvc > label {
+  color: var(--Deep-Violet, #21092f);
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
+
+  /* Body (M) */
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.cvc > input {
+  width: 191px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: var(--White, #fff);
+}
+.confirm {
+  cursor: pointer;
+  width: 381px;
+  height: 53px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Deep-Violet, #21092f);
+  color: var(--White, #fff);
+  font-feature-settings:
+    "liga" off,
+    "clig" off;
+
+  /* Heading (L) */
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
